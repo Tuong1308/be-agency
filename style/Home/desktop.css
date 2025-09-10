@@ -1,0 +1,166 @@
+.body{
+    font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
+}
+
+.btn{
+    border-radius: 25px;
+    margin: 20px 10px;
+    padding: 10px 40px;
+    font-size: 15px;  
+}
+/* start-header */
+.header {
+    position: absolute;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background: transparent; 
+}
+
+.header .header-container {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header .header-logo{
+    width: 200px;
+}
+
+.header .header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;;
+}
+
+.header-nav a{
+    color: #333bd5;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.header-menu-btn {
+    display: none; 
+    cursor: pointer;
+}
+
+/* end-header */
+
+/* start-banner */
+.banner{
+    background-image: url(../../assets/images/banner-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    
+}
+
+.banner .banner-container{
+    display: flex;
+    justify-content: center;
+}
+
+.banner-top{
+    text-align: center;
+}
+
+
+.banner-top h3{
+    font-size: 50px;
+    text-align: center;
+    color:#4989fd;
+    margin-top: 100px;
+
+}
+
+.banner-top h3 span{
+    color: #0c117b;
+}
+
+.banner-top p{
+    font-size: 16px;
+    color:#adadc1;
+    margin: 50px;
+    text-align: center;
+}
+
+.banner-top .btn-services{
+    background-color: rgb(247, 67, 113);
+    color: white;
+    font-weight: bold;
+}
+
+.banner-top .btn-learn{
+    border: 2px solid rgb(12, 17, 123);
+    color: rgb(12, 17, 123);
+    font-weight: bold;
+}
+
+.banner-bot{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+.banner .banner-bot-left{
+    justify-content: left;
+    margin-top: 220px;
+    display: flex;
+    gap: 20px;
+}
+
+.banner .banner-bot-left .banner-bot-left-title{
+    font-size: 17px;
+    color: #626262;
+    font-weight: 700;
+}
+
+.banner .banner-bot-left .banner-bot-left-phone{
+    font-size: 20px;
+    color: #4989fd;
+    font-weight: 700;
+}
+
+.banner .banner-bot-right{
+    justify-content: right;
+    margin-top: 230px;
+    display: flex;
+    gap: 20px;
+}
+
+.banner .banner-bot-right p{
+    font-size: 16px;
+    color: #626262;
+    font-weight: 700;
+}
+
+.banner .banner-bot-right .social-link{
+    width: 100px;
+    height: 100px;
+    background-color: #4989fd;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 50%;
+    align-items: center;
+    text-decoration: none;
+    padding: 12px 12px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.banner .scroll-text {
+  position: fixed; 
+  right: 0px;
+  top: 50%;
+  transform: rotate(90deg); 
+  transform-origin: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #4989fd;
+}
+
+/* end-banner */

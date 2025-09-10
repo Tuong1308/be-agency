@@ -1,0 +1,49 @@
+@media only screen and (min-width: 767px) and (max-width: 1239px){
+
+.btn{
+    border-radius: 25px;
+    margin: 10px 20px;
+    padding: 10px 30px;
+    font-size: 12px;  
+}
+/* start-header */
+.header .header-nav{
+    display: none;
+}
+
+.header-menu-btn {
+    display: flex;
+    width: 40px;
+    height: 25px;
+}
+/* end-header */
+/* start-banner */
+.banner{
+    padding: 5px;
+}
+
+.banner .banner-bot-left img{
+    width: 25px;
+    height: 40px;
+}
+
+.banner .banner-bot-left-title  {
+    font-size: 10px;
+}
+
+.banner .banner-bot-left-phone {
+    margin-top: 5px;;
+    font-size: 7px;
+}
+
+.banner .banner-bot-right p{
+    font-size: 12px;
+}
+.banner .banner-bot-right .social-link{
+     padding: 6px 6px;
+}
+
+.banner .scroll-text {
+  display: none;
+}
+}

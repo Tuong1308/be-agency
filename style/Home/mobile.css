@@ -1,0 +1,70 @@
+@media only screen and (max-width: 766px){
+.btn{
+    border-radius: 25px;
+    margin: 10px 5px;
+    padding: 5px 20px;
+    font-size: 7px;  
+}
+    /* start-header */
+.header{
+    position: relative;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background: transparent; 
+}
+
+.header .header-container {
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header .header-nav{
+    display: none;
+}
+
+.header .header-logo{
+    width: 180px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.header-menu-btn {
+    display: flex;
+    width: 40px;
+    height: 25px;
+}
+/* end-header */
+
+/* start-banner */
+.banner .banner-top h3{
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+.banner .banner-top p{
+    display: none;;
+}
+
+.banner .banner-top .banner-btn{
+    margin-top: 25px;
+}
+
+.banner .banner-bot{
+    display: none;
+}
+
+.banner{
+    padding: 5px 20px 180px 20px;
+    background-position: center;
+}
+
+.banner .scroll-text {
+  display: none;
+}
+/* end-banner */ 
+}
