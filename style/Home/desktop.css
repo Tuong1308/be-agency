@@ -8,6 +8,12 @@
     padding: 10px 40px;
     font-size: 15px;  
 }
+
+@keyframes updown{
+    0%{transform:  translateY(0px) rotate(90deg);}
+    50%{transform: translateY(30px) rotate(90deg);}
+    100%{transform: translateY(0px) rotate(90deg);}
+}
 /* start-header */
 .header {
     position: absolute;  
@@ -153,7 +159,7 @@
 }
 
 .banner .scroll-text {
-  position: fixed; 
+  position: absolute; 
   right: 0px;
   top: 50%;
   transform: rotate(90deg); 
@@ -161,6 +167,76 @@
   font-size: 14px;
   font-weight: bold;
   color: #4989fd;
+  animation: updown 2s infinite alternate ease-in-out;
 }
 
 /* end-banner */
+
+/* start-number */
+.number .number-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 100px 80px;
+    gap: 50px;
+}
+
+.number .number-left img{
+    max-width: 510px;
+    height: 455px;
+}
+
+.number .number-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.number .number-right h3{
+    font-size: 58px;
+    color: #0c117b
+}
+
+.number .number-right-text{
+    font-size: 14px;
+    color: #ADADC1;
+}
+
+.number .number-stats {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.number .number-box-stats{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.number-box-stats .number-box-stats-icon{
+    color: black;
+    font-weight: bold;
+}
+
+.number-box-stats .count-1{
+    font-size: 42px;
+    color: #15c68f;
+}
+
+.number-box-stats .count-2{
+    font-size: 42px;
+    color: #EE9C32;
+}
+
+.number-box-stats .count-3{
+    font-size: 42px;
+    color: #0C117B;
+}
+
+.number-box-stats .number-box-stats-text{
+    font-size: 15px;
+}
+
+/* end number */
