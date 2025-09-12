@@ -67,4 +67,79 @@
   display: none;
 }
 /* end-banner */ 
+/* start-why */
+.why{
+    padding: 50px 20px;
+    text-align: center;
 }
+
+.why .why-top{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.why .why-bot{
+    display: block;
+}
+
+.why .why-left img{
+    width: 430.4px;
+    height: auto;
+
+}
+.why .why-right{
+    padding: 10px 10px 0px;
+}
+
+.why .why-right h3{
+    display: inline-block;
+    font-size: 35px;
+    padding-top: 80px;
+    text-align: left;
+    padding-left: -100-px;
+}
+
+.why .why-intro-text {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: -100px;
+}
+
+.why .why-right ul {
+    text-align: left;
+    margin-bottom: 30px;
+}
+.why .why-stats-text li {
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 15px;
+    text-align: left;
+    padding-left: -100px;
+    margin-bottom: 15px;
+    color: #626262;
+}
+
+.why .btn btn-moreaboutus{
+    font-size: 14px;
+    padding: 10px 20px;
+
+}
+/* end-why */
+/* start-team */
+.team .team-top h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.team .team-mid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+/* end-team */
+}
+
