@@ -46,4 +46,34 @@
 .banner .scroll-text {
   display: none;
 }
+
+/* start-why */
+.why-bot .why-left img {
+    width: 324px;
+    height: 363px;  
+    margin-top: -150px;
+}
+
+.why-bot .why-right h3{
+    font-size: 49px;
+}
+
+.why .why-right{
+    margin-top: 100px;
+}
+/* end-why */
+
+/* start-team */
+.team{
+    padding: 50px 20px;
+    text-align: center;
+}
+/* end-team */
+
+/* start-number */
+.number .number-left img{
+    width: 325px;
+    height: 290px;
+}
+/* end-number */
 }

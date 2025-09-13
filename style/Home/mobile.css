@@ -79,6 +79,12 @@
     gap: 20px;
 }
 
+.why .why-top img {
+    width: 138px;
+    height: 75px;
+     
+}
+
 .why .why-bot{
     display: block;
 }
@@ -89,7 +95,8 @@
 
 }
 .why .why-right{
-    padding: 10px 10px 0px;
+    display: block;
+    margin-left: -50px;
 }
 
 .why .why-right h3{
@@ -97,7 +104,7 @@
     font-size: 35px;
     padding-top: 80px;
     text-align: left;
-    padding-left: -100-px;
+    margin-left: -10px;
 }
 
 .why .why-intro-text {
@@ -122,16 +129,34 @@
     color: #626262;
 }
 
-.why .btn btn-moreaboutus{
-    font-size: 14px;
+.why-bot .btn-moreaboutus{
+    font-size: 12px;
     padding: 10px 20px;
+    margin-left: -130px;
+}
 
+.why-bot .why-left img{
+    width: 335px;
+    height: 298px;
 }
 /* end-why */
 /* start-team */
+.team{
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.team .team-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
 .team .team-top h3{
     font-size: 30px;
     margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 0 10px;
 }
 
 .team .team-mid{
@@ -140,6 +165,67 @@
     gap: 20px;
     margin-bottom: 30px;
 }
+
+.team .team-top p {
+    font-size: 12px;
+}
+
+.team-mid .team-mid-text {
+    font-size: 13px;
+    text-align: center;
+}
 /* end-team */
+
+/* start-number */
+.number{
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.number .number-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
+.number .number-left img{
+    width: 335px;
+    height: 298px;
+}
+
+.number .number-right h3{
+    font-size: 40px;
+}
+
+.number-right .number-right-text{
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+
+.number-stats .number-box-stats{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.number-box-stats .count-1{
+    font-size: 30px;
+}
+
+.number-box-stats .count-2{
+    font-size: 30px;
+}
+
+.number-box-stats .count-3{
+    font-size: 30px;
+} 
+/* end-number */
 }
 

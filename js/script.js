@@ -21,7 +21,7 @@ function animateCounter(element, duration = 10000) {
         const eased = easeOutExpo(progress); // dùng easing
         const value = start + (end - start) * eased;
 
-        element.textContent = value.format();
+        element.textContent = value.format() + "%"; // Thêm dấu % sau số
 
         if (progress < 1) {
             requestAnimationFrame(update);
@@ -33,10 +33,10 @@ function animateCounter(element, duration = 10000) {
 
 // Chạy cho tất cả các phần tử có class "count"
 document.querySelectorAll('.count-1').forEach(el => {
-    animateCounter(el, 5000); // 10 giây
+    animateCounter(el, 2000); // 10 giây
 })
 document.querySelectorAll('.count-2').forEach(el => {
-    animateCounter(el, 5000);})
+    animateCounter(el, 2000);})
 document.querySelectorAll('.count-3').forEach(el => {
-    animateCounter(el, 5000); })
+    animateCounter(el, 2000); })
 
