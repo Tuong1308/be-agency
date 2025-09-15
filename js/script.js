@@ -40,3 +40,22 @@ document.querySelectorAll('.count-2').forEach(el => {
 document.querySelectorAll('.count-3').forEach(el => {
     animateCounter(el, 2000); })
 
+
+    // Lắng nghe sự kiện khi cuộn trang
+window.addEventListener("scroll", function () {
+
+  // Lấy phần tử header trong HTML (có class .header)
+  const header = document.querySelector(".header");
+
+  // Kiểm tra xem người dùng đã cuộn xuống quá 50px chưa
+  if (window.scrollY > 50) {
+    // Nếu có → thêm class "scrolled" vào header
+    // Khi đó CSS .header.scrolled sẽ được áp dụng (ví dụ: background trắng)
+    header.classList.add("scrolled");
+  } else {
+    // Nếu chưa (ngược lên trên cùng) → bỏ class "scrolled"
+    // Header quay lại trạng thái trong suốt ban đầu
+    header.classList.remove("scrolled");
+  }
+});
+
