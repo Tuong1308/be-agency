@@ -227,5 +227,59 @@
     font-size: 30px;
 } 
 /* end-number */
+
+/* start-email */
+.email .email-top h3{
+    font-size: 32px;
 }
+
+.email .email-top p{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.email .email-mid .btn-subscribe{
+    font-size: 12px;
+   
+}
+/* end-email */
+
+/* start-footer */
+.footer .footer-top{
+    display: block;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.footer .footer-right{
+    display: block;
+    text-align: left;
+    gap: 20px;
+    padding: 20px;
+}
+
+.footer .footer-container{
+    display: block;
+    text-align: left;
+    padding: 10px 20px;
+}
+
+.footer .footer-left p{
+    text-align: left;
+}
+
+.footer .footer-left{
+    display: block;
+    text-align: left;
+    margin-left: 22px;
+}
+
+.footer .footer-bot{
+    font-size: 13px;
+}
+/* end-footer */
+
+}
+
 

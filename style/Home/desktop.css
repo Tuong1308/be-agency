@@ -417,3 +417,122 @@
     margin-left: -3px;
 }
 /* end-team */
+
+/* start-email */
+.email{
+    background-image: url(../../assets/images/background-email.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.email .email-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 80px;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.email .email-top h3{
+    font-size: 58px;
+    color: #4989fd;
+    margin-bottom: 20px;
+}
+
+.email .email-top p{
+    font-size: 15px;
+    color: #ADADC1;
+    line-height: 1.5;
+}
+
+.email-mid input{
+    padding: 15px 20px;
+    width: 250px;
+    border: none;
+    margin-right: -5px;
+    font-size: 14px;
+    border-color: #ADADC1;
+    border-bottom: 2px solid #ADADC1;
+    margin-right: 10px;
+}
+
+.email-mid .btn-subscribe{
+    background-color: rgb(247, 67, 113);
+    color: white;
+    padding: 15px 35px;
+    border: none;
+    box-shadow: 10px 10px;
+}
+
+.email-bot p{
+    font-size: 15px;
+    line-height: 1.5;
+}
+/* end-email */
+
+/* start-footer */
+.footer{
+    background-color: #fafbfc;
+}
+
+.footer .footer-left{
+    display: block;
+    margin-left: 100px;
+}
+
+.footer .footer-left img{
+    width: 207px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.footer .footer-left p{
+    color: #ADADC1;
+}
+
+.footer .footer-container{
+    padding: 50px 80px;
+    gap: 50px;
+    
+}
+
+.footer .footer-top{
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+}
+
+.footer .footer-right p{
+    color: #0c117b;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer .footer-right a{
+    color: #ADADC1;
+}
+
+.footer-top .footer-right{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    line-height: 1.5;
+}
+
+.footer-right a{
+    display: block;
+}
+
+.footer .footer-bot{
+    border-top: 1px solid #E4E4E4;
+    margin-top: 30px;
+    padding-top: 20px;
+    color:#ADADC1;
+    display: flex;
+    justify-content: center;
+}
+
+/* end-footer */

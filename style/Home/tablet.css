@@ -76,4 +76,25 @@
     height: 290px;
 }
 /* end-number */
+
+/* start-email */
+.email{
+    background-position: center;
+    padding: auto;
+}
+/* end-email */
+
+/* start-footer */
+.footer .footer-container{
+    padding: 50px 20px;
+}
+
+.footer .footer-top{
+    gap: 200px;
+}
+
+.footer .footer-right a{
+    font-size: 13px;
+}
+/* end-footer */
 }
