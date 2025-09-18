@@ -1,0 +1,99 @@
+@media only screen and (max-width: 766px){
+    .btn{
+    border-radius: 25px;
+    margin: 10px 5px;
+    padding: 5px 20px;
+    font-size: 7px;  
+}
+    /* start-header */
+.header{
+    position: relative;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background: transparent; 
+}
+
+.header .header-container {
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header .header-nav{
+    display: none;
+}
+
+.header .header-logo{
+    width: 180px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.header-menu-btn {
+    display: flex;
+    width: 40px;
+    height: 25px;
+}
+
+/* end-header */
+
+/* start-banner */
+.banner .banner-content h3{
+    font-size: 35px;
+}
+
+.banner .banner-content p{
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 0 -10px;
+}
+
+.banner .banner-top .banner-btn{
+    margin-top: 25px;
+}
+
+.banner .banner-bot{
+    display: none;
+}
+
+.banner .banner-content{
+    margin-left: -200px;
+    background-position: center;
+    padding: 20px ;
+}
+
+/* end-banner */
+
+/* start-why */
+.why .why-top h3{
+    font-size: 35px;
+}
+.why .why-top .why-top-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    gap: 20px;
+    width: 100%;
+}
+
+.why .why-bot img{
+    width: 334px;
+    height: 137px;
+    align-items: center;
+    text-align: center;
+}
+
+.why .why-bot-text{   
+  display: flex;
+  flex-direction: column;
+  gap: 10px 30px;
+  padding: 20px 40px;
+}
+/* end-why */
+}

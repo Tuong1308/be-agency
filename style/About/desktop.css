@@ -1,0 +1,172 @@
+body{
+    font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
+}
+
+.btn{
+    border-radius: 25px;
+    margin: 20px 10px;
+    padding: 10px 40px;
+    font-size: 15px;  
+}
+
+@keyframes updown{
+    0%{transform:  translateY(0px) rotate(90deg);}
+    50%{transform: translateY(30px) rotate(90deg);}
+    100%{transform: translateY(0px) rotate(90deg);}
+}
+
+/* start-header */
+.header {
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: transparent; 
+}
+
+.header.scrolled {
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header .header-container {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.header .header-logo{
+    width: 200px;
+}
+
+.header .header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;;
+}
+
+.header-nav a{
+    color: #333bd5;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.header-menu-btn {
+    display: none; 
+    cursor: pointer;
+}
+
+/* end-header */
+
+/* start-banner */
+.banner{
+    background-image: url(../../assets/images/background-about-banner.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    width: auto;
+    height: 500px;
+}
+
+.banner .banner-container{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    margin-left: 220px;
+    padding: auto;
+}
+
+.banner .banner-content{
+    text-align: center;
+    margin-bottom: 20px;
+} 
+
+.banner-content h3{
+    font-size: 55px;
+    text-align: left;
+    color:#0c117b;
+}
+
+.banner-content p{
+    font-size: 15px;
+    text-align: left;
+    color: #adadc1;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+/* end-banner */
+
+/* start-why */
+.why .why-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 100px;
+
+}
+
+.why .why-top{
+    display: block;
+}
+
+.why .why-top h3{
+    font-size: 58px;
+    text-align: center;
+    color: #0c117b;
+}
+
+.why-top .why-top-text{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 14px;
+    text-align: left;
+    padding: 40px 6%;
+    gap: 200px;
+    width: 1180px;
+    color: #adadc1;
+
+}
+
+.why .why-bot img{
+    width: 1024px;
+    height: 423px;
+    align-items: center;
+    text-align: center;
+}
+
+.why .why-bot-text{
+    
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 10px 30px;
+  padding: 20px 40px;
+}
+
+.why .why-bot-text li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  margin-left: 20px;
+  color: #626262;
+}
+
+.why .why-bot-text li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;             
+  top: 0;
+  color: black;
+  font-weight: bold;
+}
+
+/* end-why */
