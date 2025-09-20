@@ -95,4 +95,51 @@
   padding: 20px 40px;
 }
 /* end-why */
+
+/* start-team */
+.team .team-container{
+    display: block;
+}
+
+.team .team-left img{
+    width: 430px;
+    height: 410px;
+}
+
+.team .team-right{
+    padding: 20px;
+    text-align: center;
+}
+
+.team .team-right h3{
+    font-size: 30px;
+    text-align: center;
+    margin-right: 0px;
+}
+
+.team-right .team-right-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    margin-top: 40px;
+    margin-bottom: 30px;
+    gap: 40px;
+}
+
+.team-right .team-right-info p{
+    color: #4962FD;
+    margin-left: 10px;
+}
+
+.team-right .btn-contactus {
+    background-color: rgb(247, 67, 113);
+    color: white;
+    padding: 20px 50px;
+    border: none;
+    box-shadow: 10px 10px;
+    font-size: 15px;
+}
+
+
+
+/* end-team */
 }
