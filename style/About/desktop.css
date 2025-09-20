@@ -174,7 +174,7 @@ body{
 .team .team-container{
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 30px;
     gap: 20px;
 
@@ -228,3 +228,97 @@ body{
     box-shadow: 10px 10px;
 }
 /* end-team */
+
+/* start-number */
+.number .number-container{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-top: -10px;
+}
+
+.number .number-right{
+    max-width: 50%;
+}
+
+.number .number-right img{
+    width: 600px;
+    height: 500px;
+}
+
+.number .number-left{
+    padding: 50px;
+}
+
+.number .number-left h3{
+    font-size: 58px;
+    color: #0c117b;
+    margin-right: 40px;
+}
+
+.number .number-left p{
+    font-size: 15px;
+    color: #adadc1;
+    margin-top: 10px;
+}
+
+.number .number-stats {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.number .number-box-stats{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.number-box-stats .number-box-stats-icon{
+    color: black;
+    font-weight: bold;
+}
+
+.number-box-stats .count-1{
+    font-size: 42px;
+    color: #4962fd;
+}
+
+.number-box-stats .count-2{
+    font-size: 42px;
+    color: #f84b43;
+}
+
+.number-box-stats .count-3{
+    font-size: 42px;
+    color: #0c117b;
+}
+
+.number-box-stats .number-box-stats-text{
+    font-size: 15px;
+}
+
+.number-left .number-box-stats{
+    margin-top: 50px;
+}
+
+.number-left a{
+    margin-top: 100px;
+}
+
+.number-left .btn-contactus{
+    background-color: rgb(247, 67, 113);
+    color: white;
+    padding: 13px 30px;
+    border: none;
+    box-shadow: 10px 10px;
+}
+
+.number-left .number-btn{
+    margin-top: 50px;
+    align-items: center;
+}
+
+
+
+/* end-number */

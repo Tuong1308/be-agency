@@ -140,6 +140,44 @@
 }
 
 
-
 /* end-team */
+
+/* start-number */
+.number .number-container{
+    display: block;
+}
+
+.number .number-right img{
+    width: 430px;
+    height: 410px;
+    margin-top: -30px;
+}
+
+.number .number-left h3{
+    font-size: 35px;
+    text-align: center;
+}
+
+.number .number-left p{
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.number-left .number-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+
+}
+
+.number-left .btn-contactus {
+    background-color: rgb(247, 67, 113);
+    color: white;
+    padding: 20px 50px;
+    border: none;
+    box-shadow: 10px 10px;
+    font-size: 15px;
+}
+/* end-number */
 }
