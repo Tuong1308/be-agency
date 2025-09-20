@@ -143,8 +143,7 @@ body{
     text-align: center;
 }
 
-.why .why-bot-text{
-    
+.why .why-bot-text{   
   display: grid;
   grid-template-columns: repeat(2, 1fr); 
   gap: 10px 30px;
@@ -170,3 +169,62 @@ body{
 }
 
 /* end-why */
+
+/* start-team */
+.team .team-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 20px;
+
+}
+
+.team .team-left img{
+    width: 750px;
+    height: 525px;
+}
+
+.team .team-right{
+    padding: 50px;
+    margin-right: 20px ;
+}
+
+.team .team-right h3{
+    font-size: 58px;
+    color: #0c117b;
+    margin-right: 40px;
+}
+
+.team .team-right p{
+    font-size: 15px;
+    color: #adadc1;
+    margin-top: 10px;
+}
+
+.team-right .team-right-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.team-right .team-right-info-text-img{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.team-right .team-right-info p{
+    color: #4962FD;
+    margin-left: 20px;
+}
+
+.team-right .btn-contactus{
+    background-color: rgb(247, 67, 113);
+    color: white;
+    padding: 13px 30px;
+    border: none;
+    box-shadow: 10px 10px;
+}
+/* end-team */
